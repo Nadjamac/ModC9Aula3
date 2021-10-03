@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Filmes</title>
+
+</head>
+
+<body >
+<main class="main">
+<section class=" container" >
+    
+            <div class="titulo" >
+            <h1 style="text-align: center;"> Meus Filmes Favorito <h1><br>
+            </div>
+    <form class="js.form">
+
+        <div class="form">
+            <label for = "Nome" type=Text > Filme:  </label>       
+            <input autofocus type="text" class="nome" placeholder="Adicionar Filme "style="display:flex">
+        </div>
+        <div  class="form">
+            <label for = "Nome" type=text > Imagem:  </label>
+            <input autofocus type="text" class="image" placeholder=" Adicionar Img ">
+        </div>   
+        <div  class="form">
+            <p for = "Nome" type=Text >Genero:  </p>
+            <input autofocus type="text" class="genero" placeholder=" Adicionar genero ">
+        </div>    
+            <label for = "Nome" type=Text >Nota:  </label>
+            <input autofocus type="text" class="nota" placeholder="Adicionar notas ">
+        <div  class="form">   
+            <button class= "button1" type="submit" onclick="enviar" >Adicionar </button>
+            <button class= "button1" type="submit" onclick="excluir" >excluir </button>
+         </div>   
+            <br>
+            <section class="container">
+                <div class="row" id="list">
+                </div>
+              </section>
+            </main>
+            <script src="index.js"></script>        
+        
+    </form> 
+          
+    </section>    
+</main>   
+</body>
+</html>
